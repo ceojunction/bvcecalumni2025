@@ -27,7 +27,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(201,79,79,0.1),transparent_50%)]"></div>
 
       <div className="relative z-10 w-full max-w-7xl mx-auto px-6 sm:px-8 md:px-12 lg:px-16 py-20 md:py-32">
-        <div className="text-center lg:text-left flex flex-col items-center lg:items-start space-y-6 sm:space-y-8">
+        <div className="text-center flex flex-col items-center space-y-6 sm:space-y-8">
           <motion.div
             initial="hidden"
             animate="visible"
@@ -56,7 +56,7 @@ export function Hero() {
               </span>
             </h2>
 
-            <div className="flex items-center justify-center lg:justify-start gap-2 sm:gap-3 text-[#FAF7F2]">
+            <div className="flex items-center justify-center gap-2 sm:gap-3 text-[#FAF7F2]">
               <div className="h-px w-8 sm:w-12 bg-gradient-to-r from-transparent to-[#D9B47C]"></div>
               <p className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-light tracking-wider">
                 Reconnect • Relive • Rejoice
@@ -80,7 +80,7 @@ export function Hero() {
             animate="visible"
             variants={fadeIn}
             transition={{ duration: 0.8, delay: 0.6, ease: "easeOut" }}
-            className="flex flex-col sm:flex-row flex-wrap justify-center lg:justify-start gap-3 sm:gap-4 pt-2 sm:pt-4 w-full sm:w-auto"
+            className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 pt-2 sm:pt-4 w-full sm:w-auto"
           >
             <div className="group flex items-center gap-3 bg-white/20 backdrop-blur-md px-4 sm:px-6 py-3 sm:py-4 rounded-2xl border border-white/30 hover:bg-white/30 transition-all duration-300">
               <div className="bg-[#D9B47C] p-2 rounded-lg flex-shrink-0">
@@ -108,7 +108,7 @@ export function Hero() {
             animate="visible"
             variants={fadeIn}
             transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
-            className="pt-4 sm:pt-6 w-full flex justify-center lg:justify-start"
+            className="pt-4 sm:pt-6 w-full flex justify-center"
           >
             <CountdownTimer targetDate="2025-12-14T00:00:00" />
           </motion.div>
@@ -118,7 +118,7 @@ export function Hero() {
             animate="visible"
             variants={fadeInUp}
             transition={{ duration: 0.8, delay: 1, ease: "easeOut" }}
-            className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start pt-6 sm:pt-8 w-full sm:w-auto"
+            className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center pt-6 sm:pt-8 w-full sm:w-auto"
           >
             <a
               href="https://forms.gle/ZHJSfwVnBAdVAncY6"
